@@ -1,0 +1,53 @@
+
+
+first run your project on local computer follow me
+
+your site open in this port (http://localhost:3000)
+
+
+
+How can I change First Page content of my project?
+
+(1) Go to project root folder > wallet-app > pages > and open index.js file on code editor and add your new content;
+
+
+How can I change Second Page content of my project?
+
+(2) Go to project root folder > wallet-app > pages > wallet > and open index.js file on code editor and add your new content;
+
+
+How can I change Third Page content of my project?
+
+(3) Go to project root folder > wallet-app > pages > login > and open index.js file on code editor and add your new content;
+
+
+How can I change 4th Page content of my project?
+
+(4) Go to project root folder > wallet-app > pages > recovery > and open index.js file on code editor and add your new content;
+
+                            ________________________________________________________________________
+
+
+
+
+
+if you need to change color then you follow me.
+first, look at the class name and then go to the CSS file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

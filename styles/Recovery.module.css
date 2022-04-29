@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&family=Nunito:wght@300;400;600;700;800;900&display=swap");
+
+/* // css example */
+.arrowIcon {
+  content: "\2190";
+  background-color: rgba(222, 233, 236, 0.685);
+  padding: 8px 6px 4px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recoveryForm {
+  background-color: rgba(239, 244, 248, 0.904);
+  width: 100%;
+}
+
+.recoveryForm:focus {
+  box-shadow: none !important;
+}
+
+.contentBox > h3 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 20px;
+  word-spacing: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  
+  .contentBox > h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+    margin-top: 20px;
+    word-spacing: 2px;
+  }
+  
+}
+
+.topContentBox {
+  margin-top: 50px;
+  cursor: pointer;
+}
+.inputbox > p {
+  font-family: "Nunito", sans-serif;
+}
+.btnImport,
+.disableBtn {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 7px 0px 7px 20px;
+  border: none;
+  font-weight: 600;
+  vertical-align: text-top;
+  border-radius: 5px;
+  background-color: #d53f8c;
+  transition: 0.3s;
+  color: aliceblue;
+}
+.disableBtn {
+  background-color: #d53f8c65;
+}
+
+.recoveryPageAnimation {
+  animation: fadeIn 0.5s ease;
+  opacity: 1;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+
+.textareaWrapper{
+  max-width: 100%;
+}
+

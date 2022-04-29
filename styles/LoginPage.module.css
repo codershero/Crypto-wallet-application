@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&family=Nunito:wght@300;400;600;700;800;900&display=swap");
+
+/* // css example */
+.arrowIcon {
+  content: "\2190";
+  background-color: rgba(222, 233, 236, 0.685);
+  padding: 8px 6px 4px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hrBox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cssSvjswr {
+  opacity: 0.2;
+  border-width: 0px 0px 1px;
+  border-image: initial;
+  border-color: inherit;
+  border-style: solid;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.orHr {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px 5px 0px 5px;
+}
+.topContentBox {
+  margin-top: 30px;
+}
+.topContentBox > h3 {
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+}
+.topContentBox > p {
+  margin-top: 20px;
+  font-weight: 600;
+  color: rgba(92, 92, 92, 0.473);
+  font-family: "Nunito", sans-serif;
+}
+
+.lockerBtn,
+.dashboardBtn,
+.googleBtn {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  padding: 7px 0px 7px 20px;
+  border: none;
+  font-weight: 600;
+  vertical-align: text-top;
+  border-radius: 5px;
+  background-color: rgba(222, 233, 236, 0.685);
+  transition: 0.3s;
+  vertical-align: text-top;
+}
+.googleBtn {
+  margin-top: 10px;
+}
+
+.googleBtn,
+.dashboardBtn,
+.lockerBtn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3px;
+  width: 100%;
+}
+.googleBtn > span {
+  font-size: 18px;
+}
+
+.lockerBtn:hover,
+.dashboardBtn:hover,
+.googleBtn:hover {
+  background-color: rgb(200, 218, 223);
+}
+
+.loginPage,
+.loginBackPage {
+  animation: fadeIn 0.5s ease;
+  opacity: 1;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.loginPage{
+  overflow: hidden;
+}
+
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  
+ .loginPage{
+   padding-left: 35px;
+   padding-right: 35px;
+ }
+  
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.lockerBtn > span,
+.dashboardBtn > span,
+.googleBtn > span {
+  margin-left: 5px;
+}
